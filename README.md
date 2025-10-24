@@ -1,37 +1,37 @@
-## Technical Specifications
+# Technical Specifications
 
-# Overview
+## Overview
 This is an interview project for Twingate. We are to develop a MemoryManager 
 that can alloc and free memory in a buffer.
 
 
-# How to run tests
+## How to run tests
 1. pip install -r requirements.txt
 2. Stay in the root directory
 3. Run: pytest -v
 
 
-# Python
+## Python
 I choose Python because it is the language I'm most comfortable. I am using objects and lists
 for storing and accessing my information. This is a simple way to manage my blocks 
 and it is simple to understand when I need to alloc or free my blocks. 
 
 
-# pytest
+## pytest
 This is a good standard library for testing python code. I used a simple pytest.ini file for my config
 alongside a standard requirements.txt file.
 
 
-# pyenv
+## pyenv
 Using pyenv for my python environment management
 
 
-# Fit-first algorithm
+## Fit-first algorithm
 My alogrithm works on allocating the first free memory it can find while iterating over a list. This is a simple
 approach and works for the context of this problem. 
 
 
-## Improvements and changes I would make
+# Improvements and changes I would make
 I would first change how the fit-first algorithm works. This is fairly inefficient in a large system
 because I have to traverse the list at least twice when I am searching if I can't find a free block the 
 first iteration and have to do a defragmentation on my memory.
