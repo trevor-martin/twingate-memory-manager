@@ -1,7 +1,3 @@
-# twingate-memory-manager
-twingate-memory-manager project
-
-
 ## Technical Specifications
 
 # Overview
