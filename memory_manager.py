@@ -215,7 +215,6 @@ class MemoryManager:
         return moved_blocks
 
     def _move_block(self, block: MemoryBlock, new_start: int):
-        print('moving block:', block.block_id, 'new_start:', new_start)
         if block.start == new_start:
             return
         
